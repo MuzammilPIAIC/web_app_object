@@ -1,0 +1,40 @@
+{
+  "name": "tensorflowjs-real-time-object-detection",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://MuzammilPIAIC.github.io/web_app_object",
+  "main": "src/index.js",
+  "dependencies": {
+    "@tensorflow/tfjs": "^1.7.4",
+    "@tensorflow/tfjs-converter": "^1.7.4",
+    "@tensorflow/tfjs-core": "^1.7.4",
+    "@tensorflow/tfjs-node": "^1.7.4",
+    "gh-pages": "^3.2.3",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "react-magic-dropzone": "1.0.1",
+    "react-scripts": "2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "scripts": {
++   "predeploy": "npm run build",
++   "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+}
+}
